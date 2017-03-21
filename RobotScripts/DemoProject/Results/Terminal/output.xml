@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170308 07:04:44.443" generator="Robot 3.0.2 (Python 2.7.9 on win32)">
+<suite source="E:\RobotFramework\RobotScripts\DemoProject\Tests\Regression\ShoppingCart.robot" id="s1" name="ShoppingCart">
+<test id="s1-t1" name="Add item to shopping cart">
+<kw name="Begin Web Test">
+<msg timestamp="20170308 07:04:44.587" level="FAIL">No keyword with name 'Begin Web Test' found.</msg>
+<status status="FAIL" endtime="20170308 07:04:44.587" starttime="20170308 07:04:44.586"></status>
+</kw>
+<doc>This is some basic info to test case.</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20170308 07:04:44.587" critical="yes" starttime="20170308 07:04:44.580">No keyword with name 'Begin Web Test' found.</status>
+</test>
+<doc>This is basic info about test suite</doc>
+<status status="FAIL" endtime="20170308 07:04:44.590" starttime="20170308 07:04:44.446"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">Smoke</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="ShoppingCart" pass="0">ShoppingCart</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170308 07:04:44.575" level="ERROR">Error in file 'E:\RobotFramework\RobotScripts\DemoProject\Tests\Regression\ShoppingCart.robot': Resource file 'Resources\Amazon.robot' does not exist.</msg>
+<msg timestamp="20170308 07:04:44.578" level="ERROR">Error in file 'E:\RobotFramework\RobotScripts\DemoProject\Tests\Regression\ShoppingCart.robot': Resource file 'Resources\Common.robot' does not exist.</msg>
+</errors>
+</robot>
